@@ -1,0 +1,80 @@
+<html lang="pt-br">
+<head>
+    <form>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CADASTRO DE CLIENTES</h1>
+    <h2 style="color: red;">  Todos os campos são de preenchimento obrigatório </h2>
+    
+    <fieldset>
+    <legend>Grupo 1: Dados pessoais:</legend>
+    <label for="Nome"></label>
+    <label>*Nome</label><br>
+        <input id="Nome" type="text"><br><br>
+
+    Data de nascimento:<br>
+        <input type="date"required><br><br>
+    Sexo:<br>
+        <input id="Masculino" type="radio" name="Sexo">Masculino
+        <input type="radio" name="Sexo">Feminino
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Grupo 2: Informações de contato:</legend>
+    Email:<br>
+        <input type="email"><br><br>
+    Telefone (Celular):<br>
+        <input type="number" number step="9" required><br><br>
+    Website:<br>
+        <input type="url" required><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Grupo 3: Localização</legend>
+    Endereço:<br>
+        <input type="text" min="1" max="9999"required><br><br>
+    Número:<br>
+        <input type="number" number step="2" required><br><br>
+    Cidade:<br>
+        <input type="text"><br><br>
+    Estado:<br>
+        <select required>
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+            <option>Distrito Federal</option>            
+        </select><br><br>
+    
+
+        <input type="button" value="Cadastrar">
+        <input type="reset" value="limpar">
+
+    </fieldset>
+   
+</form>
+</body>
+</html>
